@@ -4,7 +4,7 @@
 - name: make sure rootlog rpm is installed
   yum:
     name: rootlog
-    state: latest
+    state: present
   register: install_result
   tags:
     - rootlog
